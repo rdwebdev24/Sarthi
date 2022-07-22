@@ -1,0 +1,17 @@
+.navbar{
+     z-index: 1000;
+     position: fixed;
+     width: 100%;
+     box-shadow: 0 2px 4px gray;
+}
+
+.nav-link,
+.navbar-brand{
+     color: #514eff !important;
+     font-weight: bolder;
+}
+
+.navbar-nav{
+     gap: 0.8rem;
+}
+

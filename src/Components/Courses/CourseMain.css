@@ -1,0 +1,15 @@
+.CourseMain{
+     background-color: #bac9d7;
+}
+
+.card-container{
+     width: 100%;
+     max-width: 60rem;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2rem;
+     align-items: stretch;
+     justify-content: center;
+     padding-bottom: 20px;
+}

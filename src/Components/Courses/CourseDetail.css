@@ -1,0 +1,23 @@
+
+.btn-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 1rem;
+}
+.detail-container{
+     max-width: 80rem;
+     margin: auto;
+     padding: 20px;
+    
+}
+.para_list{
+     word-wrap: break-word;
+}
+
+@media screen and (max-width:425px) {
+     .detail-container{
+          padding: 10px;
+          padding-top: 2rem;
+     }
+}
