@@ -4,15 +4,13 @@
      flex-wrap: wrap;
      justify-content: center;
      gap: 1rem;
+     margin-bottom: 10px;
 }
 .detail-container{
      max-width: 80rem;
      margin: auto;
      padding: 20px;
     
-}
-.para_list{
-     word-wrap: break-word;
 }
 
 @media screen and (max-width:425px) {

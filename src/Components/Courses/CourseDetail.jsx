@@ -2,36 +2,23 @@ import React from 'react'
 import './CourseDetail.css'
 import { useParams } from 'react-router-dom'
 import { useState } from 'react';
+import { componentArray, useGlobalContext } from '../Context';
+import { CourseButton } from './CourseData';
 const CourseDetail = ({CourseData}) => {
-     const {id} = useParams();
-     const [newData] = CourseData.filter((item)=>item.id==id)
-     const {name,data} = newData
-
-     const [value , setValue] = useState(0)
-     const [Info,setInfo] = useState(data)
-     const {info} = Info[value]
-     console.log(info[0].para[0])
+  const {setValue} = useGlobalContext()
+  const {id} = useParams()
+  const {name} = CourseData[id-1]
   return (
     <div className='CourseDetail'>
-      <h1 className='course-title'>{name}</h1>
-      <div className="btn-container">
-          {data.map((item,index)=>{
-               const {id,name}= item
-               return (
-                    <button onClick={()=>setValue(index)} className='btn btn-primary' key={id}>{name}</button>
-               )
+     <h1 className='course-title'>{name}</h1>
+        <div className="btn-container">
+          {CourseButton.map((item,index)=>{
+            return <button onClick={()=>setValue(index)} className="btn btn-primary" key={index}>{item}</button>
           })}
-      </div>
-      <div className="detail-container">
-        <h3>{info[0].head}</h3>
-        <ul>
-         {info[0].para.map((item,index)=>{
-          return (
-            <li className='para_list' key={index}>{item}</li>
-          )
-         })}
-         </ul>
-      </div>
+        </div>
+        <div className="detail-container">
+          {componentArray[id-1]}
+        </div>
     </div>
   )
 }
