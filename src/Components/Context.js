@@ -12,9 +12,9 @@ const AppContext = React.createContext();
 const componentArray = [
      <Frontend/>,
      <Backend/>,
+     <AppDev/>,
      <MAchineLearning/>,
      <GraphicDesign/>,
-     <AppDev/>,
      <Programming/>
 ]
 

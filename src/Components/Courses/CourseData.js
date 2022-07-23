@@ -50,8 +50,8 @@ const CourseData = [
 
 const CourseButton = [
   "Docs",
-  "Websites",
   "You tube",
+  "Websites",
   "Courses",
   "Projects"
 ]
