@@ -7,10 +7,12 @@
 
 .nav-link,
 .navbar-brand{
-     color: #514eff !important;
+     color: #106abc !important;
      font-weight: bolder;
 }
-
+.navbar-brand img{
+    width: 80px;
+}
 .navbar-nav{
      gap: 0.8rem;
 }

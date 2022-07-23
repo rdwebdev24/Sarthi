@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../images/logo.png'
 import './Nav.css'
 const Nav = () => {
   return (
@@ -7,7 +8,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Sarthi
+            <img src={logo} alt="" />
           </Link>
           <button
             className="navbar-toggler"
