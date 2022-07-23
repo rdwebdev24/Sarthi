@@ -16,4 +16,6 @@
 .navbar-nav{
      gap: 0.8rem;
 }
-
+.navbar-collapse{
+     padding-top: 10px;
+}

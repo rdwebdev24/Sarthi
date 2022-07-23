@@ -3,8 +3,9 @@ const FrontendData = [
     id: 1,
     name: "Docs",
     data: `<div className="data">
-      <h3>How to Start 🤔? </h3>
+      <h3> <i class="fa-solid fa-angles-right"></i> How to Start 🤔? </h3>
        <p>
+       
          If you are a absolute begineer and you don't know anything about
          programming then congrats 🥳 you are on the right platform
        </p>
@@ -12,7 +13,8 @@ const FrontendData = [
          You just have to give 3-4 Hours daily ( and don't worry if your'e giving
          1-2 hour someday, you just have to be consistent)
        </p>
-       <h3>How mush time it will take 🕓?</h3>
+       <h3><i class="fa-solid fa-angles-right"></i> 
+       How mush time it will take 🕓?</h3>
        <p>
          Well it depends , if you very beginner to programming then you should
          <b>give time</b> to understand the concepts
@@ -27,7 +29,7 @@ const FrontendData = [
          Java Script : <span>45 days</span>
        </p>
  
-       <h3>What topics is to be learnt 📝?</h3>
+       <h3><i class="fa-solid fa-angles-right"></i> What topics is to be learnt 📝?</h3>
        <p>
          See Front end is very very ... vast , if you follow the above raodmap
          you will just understand the basics of frontend for more depth you have to
@@ -118,7 +120,7 @@ const FrontendData = [
      id: 2,
      name: "You Tube",
      data: `  <div className="data">
-     <h3>Which you tube channel is best ?</h3>
+     <h3><i class="fa-solid fa-angles-right"></i> Which you tube channel is best ?</h3>
      <h4>HTML/CSS/Js</h4>
      <ul>
        <li>
@@ -158,7 +160,7 @@ const FrontendData = [
     id: 3,
     name: "Websites",
     data: ` <div className="data">
-    <h3>Websites for reference -</h3>
+    <h3><i class="fa-solid fa-angles-right"></i> Websites for reference -</h3>
     <h4>HTML/CSS : </h4>
     <ul>
       <li>
@@ -185,7 +187,7 @@ const FrontendData = [
     id: 4,
     name: "Courses",
     data: ` <div className="data">
-    <h4>Free code Camp [Free]</h4>
+    <h4><i class="fa-solid fa-angles-right"></i> Free code Camp [Free]</h4>
       <ul>
         <li>
           <span>HTML </span> <a href="https://www.freecodecamp.org/news/html-crash-course/">https://www.freecodecamp.org/news/html-crash-course/</a>
@@ -197,7 +199,7 @@ const FrontendData = [
           <span>Js </span> <a href="https://www.freecodecamp.org/news/learn-javascript-full-course/">https://www.freecodecamp.org/news/learn-javascript-full-course/</a>
         </li>
       </ul>
-      <h4>Udemy [paid]</h4>
+      <h4><i class="fa-solid fa-angles-right"></i> Udemy [paid]</h4>
       <ul>
         <li>
           <span>HTML/CSS/Js</span> <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?data_h=BUAecVdUTHQ%3D&deal_code=1812GIFTINGB&utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_20454_._pd__._&matchtype=&gclid=Cj0KCQjwuO6WBhDLARIsAIdeyDIwG_aCZEESjoGls2ad5EgOO0wsYcY4ti1eyLDA2RG6-xm-LZ4bXosaAmigEALw_wcB">https://www.udemy.com/course/the-complete-web-development-bootcamp/?data_h=BUAecVdUTHQ%3D&deal_code=1812GIFTINGB&utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_20454_._pd__._&matchtype=&gclid=Cj0KCQjwuO6WBhDLARIsAIdeyDIwG_aCZEESjoGls2ad5EgOO0wsYcY4ti1eyLDA2RG6-xm-LZ4bXosaAmigEALw_wcB</a>
@@ -209,7 +211,7 @@ const FrontendData = [
     id: 5,
     name: "Projects",
     data: ` <div className="data">
-    <h3>Projects</h3>
+    <h3><i class="fa-solid fa-angles-right"></i> Projects</h3>
    <h4>HTML</h4>
    <ul>
     <li>

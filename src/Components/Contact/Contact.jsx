@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='Contact container'>
     <div className="contact-container">
       <h1>Contact</h1>
-      <form className='Form'>
+      {/* <form className='Form'>
           <div className="form-control">
                <label htmlFor="name">Name : </label>
                <input type="text" name="name" id="name" />
@@ -17,7 +17,8 @@ const Contact = () => {
           <div className="form-control"id='Contact-btn'>
               <a>Send</a>
           </div>
-      </form>
+      </form> */}
+     <p>Under Construction</p>
       </div>
     </div>
   )
