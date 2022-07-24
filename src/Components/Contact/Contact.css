@@ -11,6 +11,9 @@
 .icon{
      padding-right: 8px;
 }
+.form-control{
+     overflow: hidden;
+}
 .whatsup{
      position: absolute;
      top: 50%;

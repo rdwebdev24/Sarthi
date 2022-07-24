@@ -5,7 +5,7 @@ const ContactWhatsup = ({setShow,show}) => {
      function send_handle(e){
           e.preventDefault()
           var win = window.open(`https://api.whatsapp.com/send?phone=${+91-8449864328}&text=${msgref.current.value}`);
-         win.focus();
+     //     win.focus();
          setShow(!show)
         }
   return (
