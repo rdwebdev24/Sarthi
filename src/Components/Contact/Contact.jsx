@@ -7,7 +7,7 @@ const Contact = () => {
  
   function send_handle(id){
     if(id==1){
-      window.open(`https://wa.me/${+91-8449864328}?text=''`, '_blank');
+      window.open(`https://api.whatsapp.com/send?phone=${+918449864328}&text=Hi"`);
     }
   }
   return (
