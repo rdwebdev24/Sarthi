@@ -5,7 +5,7 @@ const ContactWhatsup = ({setShow,show}) => {
      const msgref = useRef()
      function send_handle(e){
           e.preventDefault()
-          var win = window.open(`https://wa.me/${+91-8449864328}?text=${nameref.current.value}%20${msgref.current.value}`);
+          var win = window.open(`https://wa.me/${+91-8449864328}?text=${nameref.current.value}${msgref.current.value}`);
          win.focus();
          setShow(!show)
         }
