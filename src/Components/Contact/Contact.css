@@ -2,33 +2,42 @@
      display: grid;
      place-items: center;
 }
-
-.contact-container{
-     text-align: center;
+.card{
+     width: 18rem;
+}
+.card-container{
+     max-width: 40rem;
+}
+.icon{
+     padding-right: 8px;
+}
+.whatsup{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     z-index: 100;
+     width: 20rem;
+     padding: 20px;
+     border-radius: 5px;
+     background-color: #157347;
+}
+.show_whatsapp{
+     display: none;
+}
+.whatsupform{
      display: flex;
      flex-direction: column;
+     justify-content: center;
+     align-items: center;
      gap: 0.5rem;
 }
-
-.Form{
-     display: flex;
-     flex-direction: column;
-     gap: 0.3rem;
+.send{
+     border: none;
+     background-color: #1b5a3d;
 }
-.form-control{
-     border: 2px solid transparent;
-}
-#Contact-btn{
-     cursor: pointer;
-     background-color: blue;
-}
-#Contact-btn:hover{
-     background-color: #0000ffd4;
-}
-#Contact-btn a{
-     color: #fff;
-}
-
-input{
-     padding-left: 5px;
+@media screen and (max-width:786px) {
+     .card{
+          width: 13rem;
+     }
 }
