@@ -17,6 +17,7 @@ const About = () => {
             already do a lots of research and then put all the best content from
             where you can start learning without wandering here and there{" "}
           </p>
+          <p><b>Visit Website</b> <a href="https://rdwebdev.vercel.app/">https://rdwebdev.vercel.app/</a></p>
       </div>
     </div>
   );
