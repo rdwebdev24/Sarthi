@@ -4,14 +4,16 @@ import contact from "../Context";
 import { useRef } from "react";
 import ContactWhatsup from "./ContactWhatsup";
 const Contact = () => {
-  const [show,setShow] = useState(true)
-  function display_form(){
-    setShow(!show)
+ 
+  function send_handle(id){
+    if(id==1){
+      window.open(`https://wa.me/${+91-8449864328}?text=''`, '_blank');
+    }
   }
   return (
     <div className="Contact container">
       <div className="contact-container">
-        <ContactWhatsup show={show} setShow={setShow}/>
+        {/* <ContactWhatsup show={show} setShow={setShow}/> */}
         <h1 className="course-title">Contact</h1>
         <div className="card-container">
         {contact.map((item)=>{
@@ -25,7 +27,7 @@ const Contact = () => {
                 <span>{name}</span>
                </h5>
               <p className="card-text">{info}</p>
-              <a onClick={()=>display_form()} href={link} className={`btn btn-${type}`} target={`${id!=1?"_blank":""}`}>
+              <a onClick={()=>send_handle(id)} href={link} className={`btn btn-${type}`} target={`${id!=1?"_blank":""}`}>
                 {info.split(' ')[0]}
               </a>
             </div>
