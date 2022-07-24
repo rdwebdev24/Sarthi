@@ -5,8 +5,13 @@
 .card{
      width: 18rem;
 }
-.card-container{
-     max-width: 40rem;
+.contact-card-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 1rem;
+     width: 100%;
+     max-width: 40rem !important;
 }
 .icon{
      padding-right: 8px;
@@ -41,6 +46,11 @@
 }
 @media screen and (max-width:786px) {
      .card{
-          width: 13rem;
+          width: 15rem;
+     }
+}
+@media screen and (max-width:425px) {
+     .card{
+          width: 100%;
      }
 }

@@ -10,8 +10,8 @@ const FrontendData = [
          programming then congrats 🥳 you are on the right platform
        </p>
        <p>
-         You just have to give 3-4 Hours daily ( and don't worry if your'e giving
-         1-2 hour someday, you just have to be consistent)
+         You just have to give 3-4 Hours daily ( and don't worry if someday your'e giving
+         1-2 hour, you just have to be consistent)
        </p>
        <h3><i class="fa-solid fa-angles-right"></i> 
        How mush time it will take 🕓?</h3>
@@ -29,14 +29,14 @@ const FrontendData = [
          Java Script : <span>45 days</span>
        </p>
  
-       <h3><i class="fa-solid fa-angles-right"></i> What topics is to be learnt 📝?</h3>
+       <h3><i class="fa-solid fa-angles-right"></i> What topics should be learn 📝?</h3>
        <p>
          See Front end is very very ... vast , if you follow the above raodmap
          you will just understand the basics of frontend for more depth you have to
          keep on practising to enhance your skills
        </p>
        <div className="html">
-         <h3>HTML</h3>
+         <h3>HTML - 3/4 days</h3>
          <ul>
            <li>
              Basic introduction
@@ -82,7 +82,7 @@ const FrontendData = [
        </p>
  
        <div className="css">
-         <h3>CSS</h3>
+         <h3>CSS - 15/20 days</h3>
          <ul>
            <li>Selectors</li>
            <li>colors, background , border</li>
@@ -90,12 +90,12 @@ const FrontendData = [
            <li>font-size/family..., dsiplay </li>
            <li>position, Zindex </li>
            <li>flex box, Grid (! important ) </li>
-           <li>media query</li>
+           <li>media query , Responsiveness</li>
          </ul>
        </div>
      <p>🥳 now that most important part or you can say the brain of the website, js time</p>
        <div className="js">
-         <h3>Js</h3>
+         <h3>Js - 45 days</h3>
          <ul>
            <li>Variavles , Operators</li>
            <li>Arrays, strings, Date</li>
@@ -114,6 +114,44 @@ const FrontendData = [
            </li>
          </ul>
        </div>
+       <h3>what's Next</h3>
+       <p>See from the above roadMap, now you are in position to say to yess i know frontend.
+       But if you Want to enhance your Skills you should learn some basic <b>FrameWorks and library</b></p>
+       <h4>CSS Frameworks ( Any one )</h4>
+       <ul>
+       <li>
+          Bootstrap
+       </li>
+       <li>
+          tailwind
+       </li>
+       </ul>
+       <h4>Js Frameworks </h4>
+       <ul>
+       <li>
+          React Js ( basically it's a library but you may heard people calling it as a framework)
+       </li>
+       <li>
+          Next Js
+       </li>
+       <li>
+          Angular
+       </li>
+       </ul>
+       <h3>Okay Great Now What's Next </h3>
+       <p>So for Building a website that user just only one thing <b>"DAMMNNN THIS WEBSITE"</b> after seeing it, you can add some animaton by using js animation libraries or some websites where the code is already written you just have to copy paste (you know developer things)</p>
+       <h4>Js animation libraries</h4>
+       <ul>
+       <li>Three.js</li>
+       <li>Anime.js</li>
+       <li>Velocity.js</li>
+     </ul>
+       <h4>CSS animation</h4>
+       <ul>
+       <li>Animate.css</li>
+       <li>Animista</li>
+       <li>CSS animation generator (theappguruz) </li>
+     </ul>
       </div>`,
   },
   {
@@ -179,7 +217,7 @@ const FrontendData = [
       <span>Digital Ocean </span><a href="https://www.digitalocean.com/community/tags/javascript" target="_blank">https://www.digitalocean.com/community/tags/javascript</a> 
       </li>
     </ul>
-    <p>See, MDN is best for all but for beginner it could be a little confusing, MDN explain each topic in depth so if you are a beginner don't try to read the wholedocumentataion just read the main point and go for the next topic</p>
+    <p>See, MDN is best, but for beginner it could be a little confusing, MDN explain each topic in depth so if you are a beginner don't try to read the whole documentataion just read the main point and go for the next topic</p>
     </div>
     `,
   },

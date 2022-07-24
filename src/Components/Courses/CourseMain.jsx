@@ -7,13 +7,13 @@ const CourseMain = () => {
   return (
     <div className="CourseMain">
       <h1 className="course-title">Courses</h1>
-      <div className="card-container">
+      <div className="card-container card-container-course">
         {CourseData.map((item,index)=>{
           const {id,name,info,path,img} = item
           return (
-            <Link to={`${path}/${id}`} key={id} className="card" style={{ width: "18rem" }} >
+            <Link to={`${path}/${id}`} key={id} className="card course-card" style={{ width: "18rem" }} >
             <img src={img} className="card-img-top" alt="..." />
-            <div className="card-body">
+            <div className="card-body course-card-body">
               <h5 className="card-title">{name}</h5>
               <p className="card-text">
                {info}

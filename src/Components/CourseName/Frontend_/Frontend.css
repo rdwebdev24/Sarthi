@@ -3,3 +3,10 @@
      text-align: center;
 }
 
+.Frontend-container{
+     font-size: 15px;
+}
+.Frontend-container p{
+     max-width: 60rem;
+}
+
