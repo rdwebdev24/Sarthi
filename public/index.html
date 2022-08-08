@@ -58,11 +58,10 @@
   <script>
      function websiteVisits(response) {
           console.log(response)
-          // visit.current.style.textContent = response.value
           try {
             document.querySelector("#visits").textContent = response.value;
           } catch (error) {
-            document.querySelector("#visits").innerHTML = '';
+            document.querySelector("#Footer").style.display = 'none';
           }
           
       }
