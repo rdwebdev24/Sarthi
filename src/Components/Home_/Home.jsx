@@ -1,5 +1,6 @@
 import React from "react";
 import CourseMain from "../Courses/CourseMain";
+import Footer from "../Footer/Footer";
 import "./Home.css";
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         </div>
       </div>
       <CourseMain />
+     <Footer/>
     </>
   );
 };

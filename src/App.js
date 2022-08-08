@@ -33,8 +33,8 @@ function App() {
           <Route path="/graphicDesign" element={<GraphicDesign />} />
           <Route path="/Languages" element={<Programming />} /> */}
           <Route path="/courseDetail/:id" element={<CourseDetail CourseData={CourseData}/>} />
-          
         </Routes>
+       
       </BrowserRouter>
       
     </div>
